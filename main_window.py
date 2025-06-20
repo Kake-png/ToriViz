@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("ToriViz")
-        self.setGeometry(100, 100, 100, 100)
+        self.setGeometry(100, 100, 150, 100)
 
         main_widget = QWidget(self)
         self.setCentralWidget(main_widget)
